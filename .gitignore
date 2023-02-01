@@ -1,0 +1,22 @@
+.DS_Store
+data/.DS_Store
+# Jupyter Notebook
+.ipynb_checkpoints
+experiments.ipynb
+snorkel-readthedocs-io-en-master.pdf
+Multi-Task Weak Supervision.pdf
+Snorkel Paper.pdf
+Weak Supervision for Multi-Task Learning.pdf
+glove.6B.50d.txt
+glove.6B.100d.txt
+glove.6B.200d.txt
+glove.6B.300d.txt
+my_nlpaug.ipynb
+textual_augmenter.ipynb
+GoogleNews*
+ppdb-2.0-tldr
+wiki-news-300d-1M.vec
+tfidf-train_model.ipynb
+ppdb-2.0-s-all
+Pierian_NLP.ipynb
+nlp_env copy.yml

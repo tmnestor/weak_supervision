@@ -1,0 +1,99 @@
+A: Phone/Mobile                              3382626
+H: Home Office                               3000939
+E: Car                                       2161532
+C: Union/Associations/Federations            2117260
+Q: Office Supplies/Small Tech                1681486
+B: Internet                                  1661938
+T: Tools/Equipment/Materials/Knives/Watch    1511508
+BG: Depreciation                             1243155
+J: Self Ed                                   1125233
+I: Laptop/Computer/Ipad/Tablet               1120763
+ZZZ: Other - Generic Terms                    510022
+BH: Travel/Accommodation/Living Away          473001
+U: Sun Protection                             462384
+N: Books/Subscriptions/Library                431606
+Y: Parking/Tolls                              426831
+S: Footwear/Protective/Safety                 354904
+BA: Meals/Food                                260186
+V: Police Check/WWC/DrugCheck                 212203
+BB: Fees/Licenses/Permits                     207045
+K: Teaching expenses                          202294
+Z: Premise Bills- Utilities/Rates             149506
+BJ: Uniform/Clothing                          108379
+BD: Expenses                                  106193
+W: Income Protection/Insurance                103884
+L: Cosmetics/Beauty                            89442
+BI: Bags/Briefcase                             88282
+D: Headphones/Dictaphones/Audio                76406
+R: Fuel/Petrol                                 65777
+AM: Taxi/Uber/Driving services                 63889
+BC: Resources                                  61032
+BL: Medical                                    44684
+X: Laundry/Dry Cleaning                        42525
+BU: Meetings expenses/Entertainment            32599
+CN: Cleaning                                   31260
+BS: Gym/Fitness/Health                         28437
+CK: Bank expenses                              22662
+DV: Company Name                               21677
+CC: Zone offset/Allowances                     20803
+M: Advertising/Photos/Sponsorship              18909
+CQ: Batteries                                  17179
+BR: Donations/Gifts                            17113
+CJ: Music                                      16553
+BT: Electrical/Electronics                     13576
+CD: Dogs/Horse/Animals & their expenses        12220
+BV: Pay TV                                     11970
+CT: Military                                   11569
+DO: Assets & Plant                             10888
+CZ: Service                                    10601
+CP: Furniture                                  10142
+CL: Repairs                                    10126
+CY: Replacements                                9985
+CV: Communications                              9809
+CI: Website/Domain                              9808
+CA: Tickets                                     9132
+BF: Rent                                        8742
+CS: Maintenance                                 7379
+CW: Accessories                                 7238
+BZ: Research                                    7218
+CH: Flu shots                                   7185
+DN: $200 Rule/Diary Entry/Small Items/300       7114
+CF: Salary/Overtime                             6921
+P: Prizes                                       6718
+DH: Cost Of Managing Tax Affairs                6662
+CO: Staff Amenities                             6257
+CM: Out Of Pocket expenses                      5712
+DJ: Water/Containers                            5663
+DE: Security                                    5027
+CR: Product                                     4956
+BN: Legal/Court                                 4935
+DA: Purchase                                    4820
+BQ: investment/Interest                         3882
+DM: Location Only                               3663
+DD: Google                                      2950
+CU: Parts                                       2866
+CX: Work Gear/Work Aids                         2476
+DP: References                                  2448
+BO: Child Care                                  2295
+DB: Toys                                        2239
+O: Superannuation                               1872
+BK: Costumes                                    1554
+DT: Agent Commission                            1526
+CE: Informant payments/expenses                 1416
+BW: Passport/Visa                               1407
+DK: School Fees                                 1272
+DG: Cloth                                       1162
+BM: Loss                                        1033
+DC: Games                                        931
+DI: Business Registration                        797
+DQ: Guns                                         791
+G: Shares                                        593
+DF: Drone                                        531
+F: Mortgage                                      472
+BP: Stock/Cost of Goods                          413
+DS: Agent Unverified                             357
+CB: GST/FBT/TAX                                  274
+DR: Agent Verified                               240
+BX: Election expenses                            151
+BY: Debt                                          49
+CG: Spouse                                        18
