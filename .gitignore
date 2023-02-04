@@ -3,6 +3,7 @@ data/.DS_Store
 # Jupyter Notebook
 .ipynb_checkpoints
 experiments.ipynb
+explorations.ipynb
 snorkel-readthedocs-io-en-master.pdf
 Multi-Task Weak Supervision.pdf
 Snorkel Paper.pdf
@@ -20,3 +21,5 @@ tfidf-train_model.ipynb
 ppdb-2.0-s-all
 Pierian_NLP.ipynb
 nlp_env copy.yml
+techcrunch.csv
+fruits.csv
