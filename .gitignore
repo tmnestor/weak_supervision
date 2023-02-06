@@ -23,3 +23,5 @@ Pierian_NLP.ipynb
 nlp_env copy.yml
 techcrunch.csv
 fruits.csv
+regex.ipynb
+tokenisation.ipynb
