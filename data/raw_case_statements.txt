@@ -1,4 +1,5 @@
-WHEN Cr_Expns_Descn_Txt LIKE ANY (
+WHEN 
+Cr_Expns_Descn_Txt  LIKE ANY (
 '%PTY%LTD' ,'%WOOLWORTHS GROUP LIMITED' ,'%COLES SUPERMARKETS AUSTRALIA P','%ACT GOVERNMENT - PAYROLL'
 ,'%WOOLWORTHS (SOUTH AUSTRALIA) P','%FIRE AND RESCUE NEW SOUTH WALE','%DEPARTMENT OF JUSTICE CORRECTI'
 ,'%THE TRUSTEE FOR SYDNEY CATHOLI','%TARGET AUSTRALIA PTY. LTD.','%INGHAMS ENTERPRISES PTY. LIMIT'
@@ -1446,7 +1447,7 @@ WHEN Cr_Expns_Descn_Txt  LIKE ANY (
 , '%PARKING%NATURE PARK%', '%PARKING%PARKES%', '%PARKING%PARK MANAGEMENT%', '%PARKING%PARKVILLE%', '%PARKING%ROSNY PARK%', '%PARKING%STUART PARK%'
 , '%PARKING%SHIFT PARK TO%', '%PARKING%ARIAH PARK%', '%PARKING%PRESIDENTS PARK%', '%PARKING%ERSKINE PARK%'
 ) 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 WHEN Cr_Expns_Descn_Txt  LIKE ANY ('%electricity%','%GAS%', '%ELEC%', '%ELETRICITY%','%UTILITIES%','%power%', '%RATES%','%water rates%'
 , '%water%', '%LIGHTING & HEATING%', '%LIGHT & POWER%','%LIGHT AND POWER%', '%ENERGY%',  '%heating%', '%HEAT & LIGHT%','%AGL%','LIGHTING' ,'LIGHT' 
  ,'L&P%', '%HLP%'
@@ -2361,7 +2362,7 @@ WHEN Cr_Expns_Descn_Txt   LIKE ANY (
 ,'%1%DAY %','%2%DAYS %','%3%DAYS %','%4%DAYS %','%5%DAYS %'
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 WHEN Cr_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
 ,'   0','    0', '%spreadsheet%', '%list%', '%deductions%', '%MISCELLANEOUS%','%misc%',  '%stuff%', '%work items%', '%summary%'
 , '%other costs%'
@@ -3361,7 +3362,7 @@ WHEN Trvl_Expns_Descn_Txt  LIKE ANY (
 , '%PARKING%NATURE PARK%', '%PARKING%PARKES%', '%PARKING%PARK MANAGEMENT%', '%PARKING%PARKVILLE%', '%PARKING%ROSNY PARK%', '%PARKING%STUART PARK%'
 , '%PARKING%SHIFT PARK TO%', '%PARKING%ARIAH PARK%', '%PARKING%PRESIDENTS PARK%', '%PARKING%ERSKINE PARK%'
 ) 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 WHEN Trvl_Expns_Descn_Txt  LIKE ANY ('%TEACHING AIDES%', '%class%', '%CLASSROOM MATERIALS%', '%classroom%','%art materials%'
 , '%TEACHING REQUISITES%', '%GROCERIES FOR SCHOOL COOKING%', '%teachers aids%',  '%teachers aides%','%school materials%','TEACHING ITEMS'
 , '%teacher%', '%TEACHING%', '%school%'
@@ -4846,7 +4847,7 @@ WHEN Trvl_Expns_Descn_Txt   LIKE ANY (
 ,'%1%DAY %','%2%DAYS %','%3%DAYS %','%4%DAYS %','%5%DAYS %'
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 WHEN Trvl_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
 ,'   0','    0', '%spreadsheet%', '%list%', '%deductions%', '%MISCELLANEOUS%','%misc%',  '%stuff%', '%work items%', '%summary%'
 , '%other costs%'
@@ -5846,7 +5847,7 @@ WHEN Self_Educn_Expns_Descn_Txt  LIKE ANY (
 , '%PARKING%NATURE PARK%', '%PARKING%PARKES%', '%PARKING%PARK MANAGEMENT%', '%PARKING%PARKVILLE%', '%PARKING%ROSNY PARK%', '%PARKING%STUART PARK%'
 , '%PARKING%SHIFT PARK TO%', '%PARKING%ARIAH PARK%', '%PARKING%PRESIDENTS PARK%', '%PARKING%ERSKINE PARK%'
 ) 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 WHEN Self_Educn_Expns_Descn_Txt  LIKE ANY ('%TEACHING AIDES%', '%class%', '%CLASSROOM MATERIALS%', '%classroom%','%art materials%'
 , '%TEACHING REQUISITES%', '%GROCERIES FOR SCHOOL COOKING%', '%teachers aids%',  '%teachers aides%','%school materials%','TEACHING ITEMS'
 , '%teacher%', '%TEACHING%', '%school%'
@@ -7331,7 +7332,7 @@ WHEN Self_Educn_Expns_Descn_Txt   LIKE ANY (
 ,'%1%DAY %','%2%DAYS %','%3%DAYS %','%4%DAYS %','%5%DAYS %'
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 WHEN Self_Educn_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
 ,'   0','    0', '%spreadsheet%', '%list%', '%deductions%', '%MISCELLANEOUS%','%misc%',  '%stuff%', '%work items%', '%summary%'
 , '%other costs%'
@@ -8331,7 +8332,7 @@ WHEN WRE_Othr_Expns_Descn_Txt  LIKE ANY (
 , '%PARKING%NATURE PARK%', '%PARKING%PARKES%', '%PARKING%PARK MANAGEMENT%', '%PARKING%PARKVILLE%', '%PARKING%ROSNY PARK%', '%PARKING%STUART PARK%'
 , '%PARKING%SHIFT PARK TO%', '%PARKING%ARIAH PARK%', '%PARKING%PRESIDENTS PARK%', '%PARKING%ERSKINE PARK%'
 ) 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 WHEN WRE_Othr_Expns_Descn_Txt  LIKE ANY ('%TEACHING AIDES%', '%class%', '%CLASSROOM MATERIALS%', '%classroom%','%art materials%'
 , '%TEACHING REQUISITES%', '%GROCERIES FOR SCHOOL COOKING%', '%teachers aids%',  '%teachers aides%','%school materials%','TEACHING ITEMS'
 , '%teacher%', '%TEACHING%', '%school%'
@@ -9816,7 +9817,7 @@ WHEN WRE_Othr_Expns_Descn_Txt   LIKE ANY (
 ,'%1%DAY %','%2%DAYS %','%3%DAYS %','%4%DAYS %','%5%DAYS %'
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 WHEN WRE_Othr_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
 ,'   0','    0', '%spreadsheet%', '%list%', '%deductions%', '%MISCELLANEOUS%','%misc%',  '%stuff%', '%work items%', '%summary%'
 , '%other costs%'
