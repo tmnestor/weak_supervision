@@ -111,7 +111,8 @@ TFN
 ,Form_Ln_Itm_Rept_Seq_Num AS Form_Ln_Itm_Rept_Seq_Num
 , CASE 
 
-WHEN Cr_Expns_Descn_Txt LIKE ANY (
+WHEN 
+Cr_Expns_Descn_Txt  LIKE ANY (
 /*PK 20191211*/'%PTY%LTD' ,'%WOOLWORTHS GROUP LIMITED' ,'%COLES SUPERMARKETS AUSTRALIA P','%ACT GOVERNMENT - PAYROLL'
 /*PK 20191211*/,'%WOOLWORTHS (SOUTH AUSTRALIA) P','%FIRE AND RESCUE NEW SOUTH WALE','%DEPARTMENT OF JUSTICE CORRECTI'
 /*PK 20191211*/,'%THE TRUSTEE FOR SYDNEY CATHOLI','%TARGET AUSTRALIA PTY. LTD.','%INGHAMS ENTERPRISES PTY. LIMIT'
@@ -1945,7 +1946,7 @@ WHEN Cr_Expns_Descn_Txt  LIKE ANY (
 ) 
 /*PK 20190213 add carparks and eclude national park*/
 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 
 
 WHEN Cr_Expns_Descn_Txt  LIKE ANY ('%electricity%','%GAS%', '%ELEC%', '%ELETRICITY%','%UTILITIES%','%power%', '%RATES%','%water rates%'
@@ -3083,7 +3084,7 @@ WHEN Cr_Expns_Descn_Txt   LIKE ANY (
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 
 /*PK Change 20190213*/
 WHEN Cr_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
@@ -4458,7 +4459,7 @@ WHEN Trvl_Expns_Descn_Txt  LIKE ANY (
 ) 
 /*PK 20190213 add carparks and eclude national park*/
 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 
 WHEN Trvl_Expns_Descn_Txt  LIKE ANY ('%TEACHING AIDES%', '%class%', '%CLASSROOM MATERIALS%', '%classroom%','%art materials%'
 , '%TEACHING REQUISITES%', '%GROCERIES FOR SCHOOL COOKING%', '%teachers aids%',  '%teachers aides%','%school materials%','TEACHING ITEMS'
@@ -6257,7 +6258,7 @@ WHEN Trvl_Expns_Descn_Txt   LIKE ANY (
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 
 /*PK Change 20190213*/
 WHEN Trvl_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
@@ -7632,7 +7633,7 @@ WHEN Self_Educn_Expns_Descn_Txt  LIKE ANY (
 ) 
 /*PK 20190213 add carparks and eclude national park*/
 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 
 WHEN Self_Educn_Expns_Descn_Txt  LIKE ANY ('%TEACHING AIDES%', '%class%', '%CLASSROOM MATERIALS%', '%classroom%','%art materials%'
 , '%TEACHING REQUISITES%', '%GROCERIES FOR SCHOOL COOKING%', '%teachers aids%',  '%teachers aides%','%school materials%','TEACHING ITEMS'
@@ -9431,7 +9432,7 @@ WHEN Self_Educn_Expns_Descn_Txt   LIKE ANY (
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 
 /*PK Change 20190213*/
 WHEN Self_Educn_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
@@ -10805,7 +10806,7 @@ WHEN WRE_Othr_Expns_Descn_Txt  LIKE ANY (
 ) 
 /*PK 20190213 add carparks and eclude national park*/
 
-THEN 'Y1: Parking/Tolls' 
+THEN 'Y: Parking/Tolls' 
 
 WHEN WRE_Othr_Expns_Descn_Txt  LIKE ANY ('%TEACHING AIDES%', '%class%', '%CLASSROOM MATERIALS%', '%classroom%','%art materials%'
 , '%TEACHING REQUISITES%', '%GROCERIES FOR SCHOOL COOKING%', '%teachers aids%',  '%teachers aides%','%school materials%','TEACHING ITEMS'
@@ -12604,7 +12605,7 @@ WHEN WRE_Othr_Expns_Descn_Txt   LIKE ANY (
 ,'%6%DAYS %','%7%DAYS %','%8%DAYS %','%9%DAYS %','%0%DAYS %'
 ) 
 
-THEN 'BH1: Travel/Accommodation/Living Away'
+THEN 'BH: Travel/Accommodation/Living Away'
 
 /*PK Change 20190213*/
 WHEN WRE_Othr_Expns_Descn_Txt  LIKE ANY ('%other%','%work related expense%','%various%','%work related%', 'work expense','work expenses'
